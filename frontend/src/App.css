@@ -1,0 +1,29 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.verify-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  z-index: 999;
+}
+
+.verify-banner.success {
+  background: rgba(34, 197, 94, 0.15);
+  border-bottom: 1px solid rgba(34, 197, 94, 0.3);
+  color: #86efac;
+}
+
+.verify-banner.error {
+  background: rgba(239, 68, 68, 0.15);
+  border-bottom: 1px solid rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+}
